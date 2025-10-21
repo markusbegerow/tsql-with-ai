@@ -493,15 +493,29 @@ Contributions are welcome! Please:
 3. Test your changes thoroughly
 4. Submit a pull request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
 - Compatible with OpenAI, Ollama, and other OpenAI-compatible APIs
 - Inspired by the need for natural language database interactions
 - Community feedback and testing
+
+## 🔗 Related Resources
+
+- [OpenAI API Reference](https://platform.openai.com/docs/api-reference)
+- [Ollama Documentation](https://ollama.ai/)
+- [LM Studio](https://lmstudio.ai/) - Run local LLMs with OpenAI-compatible API
+- [SQL Server Ole Automation](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/ole-automation-procedures-server-configuration-option)
+
+## 🤖 Supported AI Providers
+
+| Provider | Endpoint Example | Notes |
+|----------|------------------|-------|
+| **OpenAI** | `https://api.openai.com/v1/chat/completions` | Requires API key (paid) |
+| **Ollama** | `http://localhost:11434/v1/chat/completions` | Free, runs locally |
+| **LM Studio** | `http://localhost:1234/v1/chat/completions` | Free, runs locally |
+| **LocalAI** | `http://localhost:8080/v1/chat/completions` | Free, runs locally |
+| **Azure OpenAI** | `https://YOUR-RESOURCE.openai.azure.com/openai/deployments/YOUR-DEPLOYMENT/chat/completions?api-version=2024-02-15-preview` | Requires Azure subscription |
+| **Custom** | Any OpenAI-compatible endpoint | Configure as needed |
 
 ## 🙋‍♂️ Get Involved
 
@@ -523,24 +537,6 @@ If you like this project, support further development with a repost or coffee:
 - 🧑‍💻 [Markus Begerow](https://linkedin.com/in/markusbegerow)
 - 💾 [GitHub](https://github.com/markusbegerow)
 - ✉️ [Twitter](https://x.com/markusbegerow)
-
-## 🔗 Related Resources
-
-- [OpenAI API Reference](https://platform.openai.com/docs/api-reference)
-- [Ollama Documentation](https://ollama.ai/)
-- [LM Studio](https://lmstudio.ai/) - Run local LLMs with OpenAI-compatible API
-- [SQL Server Ole Automation](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/ole-automation-procedures-server-configuration-option)
-
-## 🤖 Supported AI Providers
-
-| Provider | Endpoint Example | Notes |
-|----------|------------------|-------|
-| **OpenAI** | `https://api.openai.com/v1/chat/completions` | Requires API key (paid) |
-| **Ollama** | `http://localhost:11434/v1/chat/completions` | Free, runs locally |
-| **LM Studio** | `http://localhost:1234/v1/chat/completions` | Free, runs locally |
-| **LocalAI** | `http://localhost:8080/v1/chat/completions` | Free, runs locally |
-| **Azure OpenAI** | `https://YOUR-RESOURCE.openai.azure.com/openai/deployments/YOUR-DEPLOYMENT/chat/completions?api-version=2024-02-15-preview` | Requires Azure subscription |
-| **Custom** | Any OpenAI-compatible endpoint | Configure as needed |
 
 ---
 

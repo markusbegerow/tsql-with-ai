@@ -2,7 +2,11 @@
 -- Stored Procedure: sp_TSQL_Query_with_AI
 -- Description: Executes dynamic T-SQL, sends results to AI API, and returns AI analysis
 -- =============================================
-
+-- CONTACT:
+-- Author:    Markus Begerow
+-- Contact:   https://www.linkedin.com/in/markusbegerow/
+-- Github:    https://github.com/markusbegerow
+-- =============================================
 -- PREREQUISITES:
 -- Run this first to enable Ole Automation Procedures:
 -- EXEC sp_configure 'Ole Automation Procedures', 1;
@@ -413,5 +417,12 @@ EXEC dbo.sp_TSQL_Query_with_AI
     @ApiUrl = 'http://your-server:1234/v1/chat/completions',
     @Token = 'your-token-here',
     @Model = 'your-model-name';
+
+-- =============================================
+-- CONTACT:
+-- Author:    Markus Begerow
+-- Contact:   https://www.linkedin.com/in/markusbegerow/
+-- Github:    https://github.com/markusbegerow
+-- =============================================
 
 */
